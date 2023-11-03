@@ -1,0 +1,302 @@
+﻿
+body {
+margin-top: 20px;
+color: floralwhite;
+background: #1a1818;
+}
+
+.timeline {
+position: relative;
+background: #1f1b1b;
+-webkit-border-radius: 4px;
+-moz-border-radius: 4px;
+border-radius: 4px;
+padding: 5rem;
+margin: 0 auto 1rem auto;
+overflow: hidden;
+}
+
+.timeline:after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 50%;
+    margin-left: -2px;
+    border-right: 2px dashed #4b546f;
+    height: 100%;
+    display: block;
+}
+
+.timeline-row {
+padding-left: 50%;
+position: relative;
+margin-bottom: 30px;
+}
+
+.timeline-row .timeline-time {
+    position: absolute;
+    right: 50%;
+    top: 15px;
+    text-align: right;
+    margin-right: 20px;
+    color: floralwhite;
+    font-size: 1.5rem;
+}
+
+.timeline-row .timeline-time small {
+    display: block;
+    font-size: 0.8rem;
+}
+
+.timeline-row .timeline-content {
+    position: relative;
+    padding: 20px 30px;
+    background: #272222;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.timeline-row .timeline-content:after {
+    content: "";
+    position: absolute;
+    top: 20px;
+    height: 16px;
+    width: 16px;
+    background: floralwhite;
+}
+
+.timeline-row .timeline-content:before {
+    content: "";
+    position: absolute;
+    top: 20px;
+    right: -49px;
+    width: 20px;
+    height: 20px;
+    -webkit-border-radius: 100px;
+    -moz-border-radius: 100px;
+    border-radius: 100px;
+    z-index: 10;
+    background: floralwhite;
+    border: 2px dashed #1a1818;
+}
+
+.timeline-row .timeline-content h4 {
+    margin: 0 0 20px 0;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    line-height: 150%;
+}
+
+.timeline-row .timeline-content p {
+    margin-bottom: 30px;
+    line-height: 150%;
+}
+
+.timeline-row .timeline-content i {
+    font-size: 1.2rem;
+    line-height: 100%;
+    padding: 15px;
+    -webkit-border-radius: 100px;
+    -moz-border-radius: 100px;
+    border-radius: 100px;
+    background: #e8e8e8;
+    margin-bottom: 10px;
+    display: inline-block;
+}
+
+.timeline-row .timeline-content .thumbs {
+    margin-bottom: 20px;
+    display: flex;
+}
+
+.timeline-row .timeline-content .thumbs img {
+    margin: 5px;
+    max-width: 60px;
+}
+
+.timeline-row .timeline-content .badge {
+    color: #ffffff;
+    background: linear-gradient(120deg, #00b5fd 0%, #0047b1 100%);
+}
+
+.timeline-row:nth-child(even) .timeline-content {
+    margin-left: 40px;
+    text-align: left;
+}
+
+.timeline-row:nth-child(even) .timeline-content:after {
+    left: -8px;
+    right: initial;
+    border-bottom: 0;
+    border-left: 0;
+    transform: rotate(-135deg);
+}
+
+.timeline-row:nth-child(even) .timeline-content:before {
+    left: -52px;
+    right: initial;
+}
+
+.timeline-row:nth-child(odd) {
+    padding-left: 0;
+    padding-right: 50%;
+}
+
+.timeline-row:nth-child(odd) .timeline-time {
+    right: auto;
+    left: 50%;
+    text-align: left;
+    margin-right: 0;
+    margin-left: 20px;
+}
+
+.timeline-row:nth-child(odd) .timeline-content {
+    margin-right: 40px;
+}
+
+.timeline-row:nth-child(odd) .timeline-content:after {
+    right: -8px;
+    border-left: 0;
+    border-bottom: 0;
+    transform: rotate(45deg);
+}
+
+@media (max-width: 992px) {
+.timeline {
+    padding: 15px;
+}
+
+.timeline:after {
+    border: 0;
+}
+
+.timeline .timeline-row:nth-child(odd) {
+    padding: 0;
+}
+
+.timeline .timeline-row:nth-child(odd) .timeline-time {
+    position: relative;
+    top: 0;
+    left: 0;
+    margin: 0 0 10px 0;
+}
+
+.timeline .timeline-row:nth-child(odd) .timeline-content {
+    margin: 0;
+}
+
+.timeline .timeline-row:nth-child(odd) .timeline-content:before {
+    display: none;
+}
+
+.timeline .timeline-row:nth-child(odd) .timeline-content:after {
+    display: none;
+}
+
+.timeline .timeline-row:nth-child(even) {
+    padding: 0;
+}
+
+.timeline .timeline-row:nth-child(even) .timeline-time {
+    position: relative;
+    top: 0;
+    left: 0;
+    margin: 0 0 10px 0;
+    text-align: left;
+}
+
+.timeline .timeline-row:nth-child(even) .timeline-content {
+    margin: 0;
+}
+
+.timeline .timeline-row:nth-child(even) .timeline-content:before {
+    display: none;
+}
+
+.timeline .timeline-row:nth-child(even) .timeline-content:after {
+    display: none;
+}
+}
+
+
+.search-container {
+    position: fixed; /* Tornar o contêiner fixo */
+    bottom: 0; /* Alinhar na parte inferior */
+    right: 10px; /* Defina uma distância direita para alinhar com a margem da tela */
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 10px; /* Espaçamento do contêiner */
+}
+
+/* Estilos para centralizar o formulário */
+.form-outline {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: contain;
+}
+
+.form-control {
+    width: 100%; /* Largura do campo de pesquisa */
+    padding: 10px;
+    border: 2px solid #555; /* Borda lisa */
+    border-radius: 5px;
+    background-color: #1f1b1b; /* Cor de fundo escura */
+    color: floralwhite; /* Cor do texto */
+}
+
+.form-control::placeholder {
+    color: #ffffff; /* Cor do texto do placeholder */
+}
+
+.form-control:focus {
+    color: floralwhite; /* Cor do texto do conteúdo do campo de pesquisa */
+}
+
+/* Estilos para o botão de busca */
+.form-control + button {
+    background-color: #1f1b1b; /* Cor de fundo do botão */
+    color: floralwhite; /* Cor do texto do botão */
+    border: 2px solid #1f1b1b; /* Borda lisa com a mesma cor de fundo */
+    border-radius: 5px;
+    padding: 10px 15px;
+    margin-left: 20px; /* Espaçamento entre o campo de pesquisa e o botão */
+    margin-top: 50px;
+}
+
+/* Estilos para o botão de pesquisa */
+.search-button {
+    background-color: #1f1b1b; /* Cor de fundo do botão */
+    color: floralwhite; /* Cor do texto do botão (preto) */
+    border: 2px solid #1f1b1b; /* Borda lisa com a mesma cor de fundo */
+    border-radius: 5px;
+    padding: 10px 15px;
+    margin-left: 20px; /* Espaçamento entre o campo de pesquisa e o botão */
+    transition: border-color 0.3s; /* Adicione uma transição para suavizar o efeito */
+}
+
+.search-button:hover {
+    border-color: antiquewhite; /* Altera a cor da borda quando o cursor está sobre o botão */
+}
+
+
+/* Estilo da caixa de aviso */
+.alert {
+    padding: 5px;
+    background-color: #1a1818; 
+    color: red;
+    text-align: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    display: inline;
+}

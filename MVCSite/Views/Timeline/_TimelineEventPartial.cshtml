@@ -1,0 +1,25 @@
+﻿@model MVCSite.Models.TimelineModel
+
+<div class="timeline-time">
+    @Model.hour<small>@Model.day</small>
+</div>
+<div class="timeline-content">
+    <i class="icon-code"></i>
+    <h4>@Model.location</h4>
+    <p>@Model.description</p>
+    <div class="thumbs">
+        @if (Model.characters != null && Model.characters.Count > 0)
+        {
+            foreach (var characterUrl in Model.characters)
+            {
+                <img class="img-fluid rounded" src="@characterUrl" alt="Character" />
+            }
+        }
+        else
+        {
+            <img class="img-fluid rounded" src="https://pic.onlinewebfonts.com/thumbnails/icons_400437.svg" alt="Character" />
+        }
+    </div>
+</div>
+
+

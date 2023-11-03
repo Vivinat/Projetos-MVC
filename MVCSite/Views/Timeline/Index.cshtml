@@ -1,0 +1,114 @@
+﻿@model List<MVCSite.Models.TimelineModel>
+@{
+    ViewData["Title"] = "Linha do Tempo";
+}
+
+<link rel="stylesheet" type="text/css" href="/css/timelineStyle.css">
+
+<div class="container">
+    <div class="title">
+        <h1>A jornada até então...</h1>
+		<h2>Insira em qual página está!</h2>
+    </div>
+	<div class="timeline">
+		<div class="timeline-row">
+			@if (Model.Count >= 2)
+			{
+				@Html.Partial("_TimelineEventPartial", Model[1])
+			}
+			else
+			{
+				@Html.Partial("_TimelineEventPartial", Model[0]) 
+			}
+		</div>
+
+		<div class="timeline-row">
+			@if (Model.Count >= 3)
+			{
+				@Html.Partial("_TimelineEventPartial", Model[2])
+			}
+			else
+			{
+				@Html.Partial("_TimelineEventPartial", Model[0]) 
+			}
+		</div>
+
+		<div class="timeline-row">
+			@if (Model.Count >= 4)
+			{
+				@Html.Partial("_TimelineEventPartial", Model[3])
+			}
+			else
+			{
+				@Html.Partial("_TimelineEventPartial", Model[0]) 
+			}
+		</div>
+
+		<div class="timeline-row">
+			@if (Model.Count >= 5)
+			{
+				@Html.Partial("_TimelineEventPartial", Model[4])
+			}
+			else
+			{
+				@Html.Partial("_TimelineEventPartial", Model[0]) 
+			}
+		</div>
+
+		<div class="timeline-row">
+			@if (Model.Count >= 6)
+			{
+				@Html.Partial("_TimelineEventPartial", Model[5])
+			}
+			else
+			{
+				@Html.Partial("_TimelineEventPartial", Model[0]) 
+			}
+		</div>
+
+		<div class="timeline-row">
+			@if (Model.Count >= 7)
+			{
+				@Html.Partial("_TimelineEventPartial", Model[6])
+			}
+			else
+			{
+				@Html.Partial("_TimelineEventPartial", Model[0]) 
+			}
+		</div>
+
+		<div class="timeline-row">
+			@if (Model.Count >= 8)
+			{
+				@Html.Partial("_TimelineEventPartial", Model[7])
+			}
+			else
+			{
+				@Html.Partial("_TimelineEventPartial", Model[0]) 
+			}
+		</div>
+
+		<div class="timeline-row">
+			@if (Model.Count >= 9)
+			{
+				@Html.Partial("_TimelineEventPartial", Model[8])
+			}
+			else
+			{
+				@Html.Partial("_TimelineEventPartial", Model[0]) 
+			}
+		</div>
+	</div>
+</div>
+
+<div class="search-container">
+	<form method="post" action="/Timeline/Search">
+		<div class="form-outline">
+			<input type="search" name="query" class="form-control" placeholder="Parou em qual página?" aria-label="Atualizar" />
+		</div>
+		<button class="search-button" type="submit">Pesquisar</button>
+	</form>
+</div>
+
+
+<div class="alert"><strong>@TempData["Message"]</strong></div>

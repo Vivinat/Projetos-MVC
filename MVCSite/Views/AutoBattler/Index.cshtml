@@ -1,0 +1,76 @@
+﻿@model List<MVCSite.Models.Character>
+
+@{
+    ViewData["Title"] = "Auto Battler";
+}
+<script src="/lib/jquery/dist/jquery.js"></script>
+<link rel="stylesheet" type="text/css" href="/css/autoBattlerStyle.css">
+
+<h1>Selecione os combatentes!</h1>
+<h2 id="enfrentando"></h2>
+
+
+<div class="d-flex justify-content-center mt-4 text-center">
+    <button type="button" class="btn startClash" style="background: black;color:floralwhite;">
+        Iniciar Luta!
+    </button>
+</div>
+
+
+
+<div class="container mt-4">
+  <div class="row mx-auto">
+    <div class="col-md-4">
+      <div class="card" style="width: 18rem;"> 
+            <img src="@Model[0].photo" class="card-img-top" alt="...">
+                <div class="card-body">
+                    
+                    <h5 class="card-title">@Model[0].name</h5>
+                    <h6 class="card-subtitle mb-2 text-muted">Vida: @Model[0].health, Mana: @Model[0].mana, muita vida</h6>
+                    <p class="card-text">@Model[0].description</p>
+
+                    <button type="button" class="btn aliado mr-2" data-allyid="1">Escolher como Aliada</button>
+                    <button type="button" class="btn inimigo" data-enemyid="1">Escolher como Inimigo</button>
+                    
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4">
+        <div class="card" style="width: 18rem;">
+            <img src="@Model[1].photo" class="card-img-top" alt="...">
+            <div class="card-body">
+                <h5 class="card-title">@Model[1].name</h5>
+                <h6 class="card-subtitle mb-2 text-muted">Vida: @Model[1].health, Mana: @Model[1].mana, poderoso ataque especial </h6>
+                <p class="card-text">@Model[1].description</p>
+
+                <button type="button" class="btn aliado mr-2" data-allyid="2">Escolher como Aliado</button>
+                <button type="button" class="btn inimigo" data-enemyid="2">Escolher como Inimigo</button>
+            </div>
+        </div>
+        </div>
+
+        <div class="col-md-4">
+        <div class="card" style="width: 18rem;">
+            <img src="@Model[2].photo" class="card-img-top" alt="...">
+            <div class="card-body">
+                <h5 class="card-title">@Model[2].name</h5>
+                <h6 class="card-subtitle mb-2 text-muted">Vida: @Model[2].health, Mana: @Model[2].mana, poderoso ataque físico</h6>
+                <p class="card-text">@Model[2].description</p>
+
+                <button type="button" class="btn aliado mr-2" data-allyid="3">Escolher como Aliado</button>
+                <button type="button" class="btn inimigo" data-enemyid="3">Escolher como Inimigo</button>
+            </div>
+        </div>
+        </div>
+
+    </div>
+</div>
+
+<div class="message-log">
+       
+</div>
+<h2>Recarregue a página para jogar novamente!</h2>
+
+
+<script src="/js/versusAutoBattle.js"></script>
+<div class="alert"><strong>@TempData["Message"]</strong></div>

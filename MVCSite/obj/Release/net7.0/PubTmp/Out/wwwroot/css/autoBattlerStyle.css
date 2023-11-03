@@ -1,0 +1,70 @@
+﻿:root {
+    --gradient: linear-gradient(to left top, #DD2476 10%, #FF512F 90%) !important;
+}
+
+body {
+    background: #1a1818;
+}
+
+.card {
+    background: #1f1b1b;
+    border: 1px solid #dd2476;
+    color: rgba(250, 250, 250, 0.8);
+    margin-bottom: 2rem;
+    text-align: center;
+}
+
+.btn.aliado, .btn.inimigo, .btn.startClash {
+    display: inline-block;
+    margin-top: 5px; 
+    padding: 10px 20px;
+    border: 1px solid transparent;
+    color: floralwhite;
+    text-decoration: none;
+    transition: background-color 0.4s, text-decoration 0.4s;
+}
+
+
+.btn.startClash {
+    background: black!important;
+}
+
+.btn.aliado {
+    background: green;
+}
+
+.btn.inimigo {
+    background: red;
+}
+
+.btn.aliado:hover, .btn.inimigo:hover, .btn.startClash:hover {
+    background: var(--gradient)!important;
+    text-decoration: underline!important;
+}
+
+/* Estilo da caixa de aviso */
+.alert {
+    padding: 5px;
+    background-color: #1a1818;
+    color: red;
+    text-align: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    display: inline;
+}
+
+.message-log {
+    background-color: #1f1b1b;
+    color: white;
+    padding: 10px;
+    margin: 20px auto;
+    width: 60%;
+    border: 2px solid white;
+    border-radius: 5px;
+    max-height: 200px;
+    overflow-y: auto;
+}
+
+

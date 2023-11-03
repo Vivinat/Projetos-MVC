@@ -1,0 +1,46 @@
+{
+  "Characters": [
+    {
+      "id": 1,
+      "name": "Luna",
+      "description": "Que destino cruel recebeu: Tanto poder, num mundo cheio de aproveitadores...",
+      "photo": "https://pic.onlinewebfonts.com/thumbnails/icons_400437.svg",
+      "health": 80,
+      "mana": 25,
+      "damage": 20,
+      "specialDamage": 80,
+      "manaRegen": 30,
+      "defense": 5,
+      "specialDefense": 10,
+      "agility": 15
+    },
+    {
+      "id": 2,
+      "name": "Theodor",
+      "description": "Marcado em queimaduras familiares, fadado à herança maldita. ",
+      "photo": "https://pic.onlinewebfonts.com/thumbnails/icons_400437.svg",
+      "health": 150,
+      "mana": 10,
+      "damage": 30,
+      "specialDamage": 15,
+      "manaRegen": 25,
+      "defense": 10,
+      "specialDefense": 20,
+      "agility": 18
+    },
+    {
+      "id": 3,
+      "name": "Yuria",
+      "description": "A guerreira dos Olhos de Estrela, tão opacos quanto os restos de sua árvore genealógica",
+      "photo": "https://pic.onlinewebfonts.com/thumbnails/icons_400437.svg",
+      "health": 70,
+      "mana": 0,
+      "damage": 40,
+      "specialDamage": 40,
+      "manaRegen": 10,
+      "defense": 10,
+      "specialDefense": 5,
+      "agility": 18
+    }
+  ]
+}
