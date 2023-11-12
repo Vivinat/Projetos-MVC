@@ -103,7 +103,6 @@ C:\Users\Particular\Desktop\CURSOS\C#\MVCSite\MVCSite\bin\Debug\net7.0\refs\Micr
 C:\Users\Particular\Desktop\CURSOS\C#\MVCSite\MVCSite\bin\Debug\net7.0\refs\Microsoft.Extensions.Configuration.KeyPerFile.dll
 C:\Users\Particular\Desktop\CURSOS\C#\MVCSite\MVCSite\bin\Debug\net7.0\refs\Microsoft.Extensions.Configuration.UserSecrets.dll
 C:\Users\Particular\Desktop\CURSOS\C#\MVCSite\MVCSite\bin\Debug\net7.0\refs\Microsoft.Extensions.Configuration.Xml.dll
-C:\Users\Particular\Desktop\CURSOS\C#\MVCSite\MVCSite\bin\Debug\net7.0\refs\Microsoft.Extensions.DependencyInjection.Abstractions.dll
 C:\Users\Particular\Desktop\CURSOS\C#\MVCSite\MVCSite\bin\Debug\net7.0\refs\Microsoft.Extensions.DependencyInjection.dll
 C:\Users\Particular\Desktop\CURSOS\C#\MVCSite\MVCSite\bin\Debug\net7.0\refs\Microsoft.Extensions.Diagnostics.HealthChecks.Abstractions.dll
 C:\Users\Particular\Desktop\CURSOS\C#\MVCSite\MVCSite\bin\Debug\net7.0\refs\Microsoft.Extensions.Diagnostics.HealthChecks.dll
@@ -120,7 +119,6 @@ C:\Users\Particular\Desktop\CURSOS\C#\MVCSite\MVCSite\bin\Debug\net7.0\refs\Micr
 C:\Users\Particular\Desktop\CURSOS\C#\MVCSite\MVCSite\bin\Debug\net7.0\refs\Microsoft.Extensions.Identity.Stores.dll
 C:\Users\Particular\Desktop\CURSOS\C#\MVCSite\MVCSite\bin\Debug\net7.0\refs\Microsoft.Extensions.Localization.Abstractions.dll
 C:\Users\Particular\Desktop\CURSOS\C#\MVCSite\MVCSite\bin\Debug\net7.0\refs\Microsoft.Extensions.Localization.dll
-C:\Users\Particular\Desktop\CURSOS\C#\MVCSite\MVCSite\bin\Debug\net7.0\refs\Microsoft.Extensions.Logging.Abstractions.dll
 C:\Users\Particular\Desktop\CURSOS\C#\MVCSite\MVCSite\bin\Debug\net7.0\refs\Microsoft.Extensions.Logging.Configuration.dll
 C:\Users\Particular\Desktop\CURSOS\C#\MVCSite\MVCSite\bin\Debug\net7.0\refs\Microsoft.Extensions.Logging.Console.dll
 C:\Users\Particular\Desktop\CURSOS\C#\MVCSite\MVCSite\bin\Debug\net7.0\refs\Microsoft.Extensions.Logging.Debug.dll
@@ -521,3 +519,21 @@ C:\Users\Particular\Desktop\CURSOS\C#\MVCSite\MVCSite\obj\Debug\net7.0\refint\Pr
 C:\Users\Particular\Desktop\CURSOS\C#\MVCSite\MVCSite\obj\Debug\net7.0\ProjetosViniciusVieiraMota.pdb
 C:\Users\Particular\Desktop\CURSOS\C#\MVCSite\MVCSite\obj\Debug\net7.0\ProjetosViniciusVieiraMota.genruntimeconfig.cache
 C:\Users\Particular\Desktop\CURSOS\C#\MVCSite\MVCSite\obj\Debug\net7.0\ref\ProjetosViniciusVieiraMota.dll
+C:\Users\Particular\Desktop\CURSOS\C#\MVCSite\MVCSite\bin\Debug\net7.0\SendGrid.dll
+C:\Users\Particular\Desktop\CURSOS\C#\MVCSite\MVCSite\bin\Debug\net7.0\StarkbankEcdsa.dll
+C:\Users\Particular\Desktop\CURSOS\C#\MVCSite\MVCSite\bin\Debug\net7.0\EntityFramework.SqlServer.dll
+C:\Users\Particular\Desktop\CURSOS\C#\MVCSite\MVCSite\bin\Debug\net7.0\EntityFramework.dll
+C:\Users\Particular\Desktop\CURSOS\C#\MVCSite\MVCSite\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.dll
+C:\Users\Particular\Desktop\CURSOS\C#\MVCSite\MVCSite\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\Particular\Desktop\CURSOS\C#\MVCSite\MVCSite\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\Particular\Desktop\CURSOS\C#\MVCSite\MVCSite\bin\Debug\net7.0\Npgsql.dll
+C:\Users\Particular\Desktop\CURSOS\C#\MVCSite\MVCSite\bin\Debug\net7.0\Npgsql.EntityFrameworkCore.PostgreSQL.dll
+C:\Users\Particular\Desktop\CURSOS\C#\MVCSite\MVCSite\bin\Debug\net7.0\System.CodeDom.dll
+C:\Users\Particular\Desktop\CURSOS\C#\MVCSite\MVCSite\bin\Debug\net7.0\System.Data.SqlClient.dll
+C:\Users\Particular\Desktop\CURSOS\C#\MVCSite\MVCSite\bin\Debug\net7.0\runtimes\win-arm64\native\sni.dll
+C:\Users\Particular\Desktop\CURSOS\C#\MVCSite\MVCSite\bin\Debug\net7.0\runtimes\win-x64\native\sni.dll
+C:\Users\Particular\Desktop\CURSOS\C#\MVCSite\MVCSite\bin\Debug\net7.0\runtimes\win-x86\native\sni.dll
+C:\Users\Particular\Desktop\CURSOS\C#\MVCSite\MVCSite\bin\Debug\net7.0\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\Particular\Desktop\CURSOS\C#\MVCSite\MVCSite\bin\Debug\net7.0\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\Particular\Desktop\CURSOS\C#\MVCSite\MVCSite\bin\Debug\net7.0\refs\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\Particular\Desktop\CURSOS\C#\MVCSite\MVCSite\bin\Debug\net7.0\refs\Microsoft.Extensions.Logging.Abstractions.dll

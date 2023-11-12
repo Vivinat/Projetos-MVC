@@ -28,7 +28,7 @@ body {
 /* Seletor para a classe da navbar */
 .navbar {
     background-color: #1f1b1b !important; /* Cor de fundo da navbar */
-    margin-top:20px;
+    margin-top:5px;
 }
 
 /* Seletor para o texto na navbar */
@@ -53,7 +53,7 @@ h1, h2 {
     width: 800px;
     height: 520px;
     overflow: hidden;
-    top: 64%;
+    top: 60%;
     left: 50%;
     transform: translate(-50%, -50%);
 }

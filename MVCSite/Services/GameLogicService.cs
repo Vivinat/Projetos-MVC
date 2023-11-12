@@ -2,7 +2,7 @@
 using MVCSite.Models;
 using Newtonsoft.Json;
 
-namespace MVCSite.Services
+namespace ProjetosViniciusVieiraMota.Services
 {
 	public class GameLogicService
 	{

@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "YV0V7pogiggOAnPr25BUNtDTz5vd5L2JsuPPOuDTBQ4=",
+  "Hash": "ttIeqyRSQMzXk+/5Tht/79QdynlQXWHNkrF5VHwXROM=",
   "Source": "ProjetosViniciusVieiraMota",
   "BasePath": "_content/ProjetosViniciusVieiraMota",
   "Mode": "Default",
@@ -119,6 +119,23 @@
       "OriginalItemSpec": "wwwroot\\css\\autoBattlerStyle.css"
     },
     {
+      "Identity": "C:\\Users\\Particular\\Desktop\\CURSOS\\C#\\MVCSite\\MVCSite\\wwwroot\\css\\poemStyle.css",
+      "SourceId": "ProjetosViniciusVieiraMota",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Particular\\Desktop\\CURSOS\\C#\\MVCSite\\MVCSite\\wwwroot\\",
+      "BasePath": "_content/ProjetosViniciusVieiraMota",
+      "RelativePath": "css/poemStyle.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\poemStyle.css"
+    },
+    {
       "Identity": "C:\\Users\\Particular\\Desktop\\CURSOS\\C#\\MVCSite\\MVCSite\\wwwroot\\css\\site.css",
       "SourceId": "ProjetosViniciusVieiraMota",
       "SourceType": "Discovered",
@@ -168,6 +185,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\favicon.ico"
+    },
+    {
+      "Identity": "C:\\Users\\Particular\\Desktop\\CURSOS\\C#\\MVCSite\\MVCSite\\wwwroot\\js\\poemCRD.js",
+      "SourceId": "ProjetosViniciusVieiraMota",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Particular\\Desktop\\CURSOS\\C#\\MVCSite\\MVCSite\\wwwroot\\",
+      "BasePath": "_content/ProjetosViniciusVieiraMota",
+      "RelativePath": "js/poemCRD.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\js\\poemCRD.js"
     },
     {
       "Identity": "C:\\Users\\Particular\\Desktop\\CURSOS\\C#\\MVCSite\\MVCSite\\wwwroot\\js\\site.js",

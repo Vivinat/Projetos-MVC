@@ -1,4 +1,7 @@
-using MVCSite.Services;
+using Microsoft.EntityFrameworkCore;
+using ProjetosViniciusVieiraMota.Services;
+
+
 
 namespace MVCSite
 {
@@ -6,6 +9,7 @@ namespace MVCSite
     {
         public static void Main(string[] args)
         {
+
             var builder = WebApplication.CreateBuilder(args);
 
             builder.Services.AddRazorPages().AddRazorRuntimeCompilation();
@@ -15,8 +19,16 @@ namespace MVCSite
 
 			builder.Services.AddScoped<GameLogicService>();
 
+            builder.Services.AddScoped<SmtpService>();
 
-			var app = builder.Build();
+            // Obtenha a configuração do aplicativo a partir do builder
+            var configuration = builder.Configuration;
+
+            builder.Services.AddDbContext<DBContextService>(options =>
+            options.UseNpgsql(configuration.GetConnectionString("DefaultConnection")));
+
+
+            var app = builder.Build();
 
             // Configure the HTTP request pipeline.
             if (!app.Environment.IsDevelopment())
@@ -59,9 +71,13 @@ namespace MVCSite
                    pattern: "AutoBattler/Initiate/",
                    defaults: new { controller = "AutoBattler", action = "Initiate" });
 
+                endpoints.MapControllerRoute(
+                    name: "PerformCRD",
+                    pattern: "Poem/PerformCRD/",
+                    defaults: new { controller = "Poem", action = "PerformCRD" });
 
-                // Outras rotas
-            });
+
+        });
 
 
 			app.Run();

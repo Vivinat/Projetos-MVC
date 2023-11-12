@@ -2,7 +2,6 @@
 {
     public class TimelineModel
 	{
-
         public string day { get; set; }
         public string hour { get; set; }
         public List<string> characters { get; set; }

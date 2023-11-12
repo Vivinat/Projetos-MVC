@@ -1,14 +1,11 @@
-﻿using Microsoft.AspNetCore.Connections.Features;
-using Microsoft.AspNetCore.Http;
-using Microsoft.AspNetCore.Mvc;
-using Microsoft.AspNetCore.Mvc.RazorPages;
+﻿using Microsoft.AspNetCore.Mvc;
 using MVCSite.Models;
-using MVCSite.Services;
 using Newtonsoft.Json;
+using ProjetosViniciusVieiraMota.Services;
 
 namespace MVCSite.Controllers
 {
-	public class AutoBattlerController : Controller
+    public class AutoBattlerController : Controller
 	{
 		private readonly GameLogicService _gameLogicService;
         bool gameStarted = false;

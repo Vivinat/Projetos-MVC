@@ -1,0 +1,42 @@
+﻿/* Estilos para centralizar o formulário */
+.form-outline {
+    display: flex;
+    flex-direction: column; /* Alteração para empilhar elementos verticalmente */
+    justify-content: center;
+    align-items: center;
+    width: 80%; /* Largura do formulário */
+    margin: 0 auto; /* Centralizar horizontalmente */
+    padding: 20px;
+    border: 2px solid #555; /* Borda lisa */
+    border-radius: 10px;
+    background-color: #1f1b1b; /* Cor de fundo escura */
+    color: floralwhite; /* Cor do texto */
+}
+
+.form-control {
+    width: 100%; /* Largura do campo de entrada */
+    padding: 10px;
+    border: 2px solid #555; /* Borda lisa */
+    border-radius: 5px;
+    background-color: floralwhite; /* Cor de fundo escura */
+    color: white;
+    margin-bottom: 10px; /* Espaçamento inferior entre campos */
+}
+
+.form-control:focus {
+    color: white; /* Defina a cor desejada para o texto quando o campo está em foco */
+}
+
+
+/* Estilos para o botão de envio */
+.search-button {
+    background-color: #1f1b1b; /* Cor de fundo do botão */
+    color: floralwhite; /* Cor do texto do botão */
+    border: 2px solid #555; /* Borda lisa */
+    border-radius: 5px;
+    padding: 10px 20px;
+}
+
+    .search-button:hover {
+        background-color: #555; /* Altera a cor de fundo quando o cursor está sobre o botão */
+    }
